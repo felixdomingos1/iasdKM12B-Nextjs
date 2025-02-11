@@ -1,109 +1,179 @@
+# IASD KM12B  🏢
 
-# Dashboard Interativo - Next.js + TailwindCSS + Shadcn
+![Next.js](https://img.shields.io/badge/Next.js-15.0-black)
+![React](https://img.shields.io/badge/React-18.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC)
+![shadcn/ui](https://img.shields.io/badge/shadcn/ui-latest-black)
 
-## Descrição do Projeto
+## 📋 Sobre o Projeto
 
-Este projeto tem como objetivo criar um **dashboard interativo** utilizando **Next.js**, **Shadcn (Radix UI com TailwindCSS)** e **TailwindCSS**, com foco em **responsividade**, **acessibilidade** e **boas práticas de desenvolvimento frontend**.
+Sistema de gestão integrada para a Igreja Adventista do Sétimo Dia KM12B, desenvolvido com Next.js 15 e tecnologias modernas. O sistema gerencia diversos aspectos da igreja, incluindo membros, departamentos, eventos e clubes.
 
-### Funcionalidades do Dashboard:
-- **Página Inicial (Home):** Exibe um resumo dos projetos ativos e concluídos, gráficos simples mostrando o progresso dos projetos.
-- **Página de Projetos:** Lista todos os projetos, incluindo informações como nome, status (ativo, atrasado, concluído), barra de progresso, e permite criar novos projetos.
-- **Modal de Criação de Projetos:** Permite criar novos projetos, incluindo campos obrigatórios como nome, data de início e fim, descrição e responsável. O formulário possui validações com feedback visual.
-- **Página de Detalhes do Projeto:** Exibe os detalhes do projeto, incluindo tarefas associadas, comentários e a opção de marcar tarefas como concluídas com feedback visual imediato.
+### 🌟 Principais Funcionalidades
 
-- **Persistência de Dados:** Utilizei o banco de dados **SQLite** com **Prisma ORM** para persistir dados.
-- **Dark Mode:** Suporte a modo escuro com TailwindCSS.
+- **Gestão de Membros**: Cadastro e gerenciamento completo de membros por adicionar logo mais
+- **Departamentos**: Administração de departamentos e líderes  por adicionar logo mais
+- **Clubes**: Gestão dos clubes (Aventureiros, Desbravadores, etc.)  por adicionar logo mais
+- **Eventos**: Organização e controle de eventos da igreja  por adicionar logo mais
+- **Financeiro**: Controle de dízimos, ofertas e despesas por adicionar logo mais
+- **Dashboard**: Painéis administrativos personalizados por adicionar logo mais
+- **Multi-idiomas**: Suporte para Português e Inglês
 
-## Como Executar o Projeto
+## 🛠️ Tecnologias Utilizadas
 
-Para rodar este projeto localmente, siga os passos abaixo:
+- **Framework**: Next.js 15 (App Router)
+- **Linguagem**: TypeScript
+- **Estilização**: Tailwind CSS
+- **Componentes**: shadcn/ui
+- **Banco de Dados**: PostgreSQL
+- **ORM**: Prisma
+- **Autenticação**: NextAuth.js
+- **Internacionalização**: next-intl
+- **Formulários**: React Hook Form + Zod
+- **Estado Global**: Zustand
+- **Testes**: Jest + React Testing Library
+- **CI/CD**: GitHub Actions
 
-### 1. Clonando o repositório:
+## 📦 Estrutura do Projeto 
 
-```bash
-git clone https://github.com/usuario/dashcn.git
-cd dashcn
+```
+iasd-km12b/
+├── src/
+│   ├── app/                    # App Router e páginas
+│   ├── components/             # Componentes reutilizáveis
+│   ├── contexts/              # Contextos React
+│   ├── hooks/                 # Custom hooks
+│   ├── lib/                   # Utilitários e configurações
+│   ├── models/                # Types e interfaces
+│   ├── services/             # Serviços e APIs
+│   └── styles/               # Estilos globais
+├── prisma/                   # Schema e migrações
+├── public/                   # Assets estáticos
+├── tests/                    # Testes
+└── locales/                 # Arquivos de tradução
 ```
 
-### 2. Instalando as dependências:
+## 🚀 Como Iniciar
 
-Utilize o **npm** ou **yarn** para instalar as dependências do projeto:
+### Pré-requisitos
 
+- Node.js 18.17 ou superior
+- pnpm 8.x
+- PostgreSQL 14+
+
+### Instalação
+
+1. Clone o repositório:
 ```bash
-npm install
-# ou
-yarn install
+git clone https://github.com/felixdomingos1/iasdKM12B-Nextjs.git
+cd iasdKM12B-Nextjs
 ```
 
-### 3. Configuração do Banco de Dados:
-
-Este projeto utiliza o **SQLite** como banco de dados, e o **Prisma** como ORM.
-
-#### Passos para configurar o Prisma:
-
-1. Crie o banco de dados com Prisma:
-
+2. Instale as dependências:
 ```bash
-npx prisma migrate dev
+pnpm install
 ```
 
-2. Se necessário, altere a configuração do banco de dados no arquivo `prisma/schema.prisma` para se adequar ao seu ambiente.
-
-### 4. Executando o Projeto:
-
-Após configurar as dependências e o banco de dados, você pode iniciar o servidor de desenvolvimento:
-
+3. Configure as variáveis de ambiente:
 ```bash
-npm run dev
-# ou
-yarn dev
+cp .env.example .env.local
 ```
 
-O aplicativo estará disponível em `http://localhost:3000`.
+4. Configure o banco de dados:
+```bash
+pnpm prisma migrate dev
+pnpm prisma generate
+```
 
-## Arquitetura
+5. Inicie o servidor de desenvolvimento:
+```bash
+pnpm dev
+```
 
-Este projeto segue o padrão de **arquitetura Onion**, que foca em desacoplamento entre camadas e separação de responsabilidades. A estrutura é organizada da seguinte forma:
+## 🔧 Configuração
 
-- **Camada de Apresentação:** Contém os componentes do frontend, como páginas, modais e listas, utilizando **Next.js**, **Shadcn (Radix UI com TailwindCSS)** e **TailwindCSS**.
-- **Camada de Aplicação:** Lógica de negócio e manipulação de dados, como validações de formulário e controle de estado da aplicação. *
-- **Camada de Persistência:** Responsável pela comunicação com o banco de dados, utilizando **Prisma ORM** para manipulação de dados no **SQLite**. *
+### Variáveis de Ambiente
 
-A ideia da arquitetura Onion é garantir que as dependências fluam de fora para dentro, com o núcleo da aplicação sendo independente de tecnologias externas.
+```env
+DATABASE_URL="postgresql://user:password@localhost:3306/iasd_km12b"
+NEXTAUTH_SECRET="sua-chave-secreta"
+NEXTAUTH_URL="http://localhost:3000"
+NEXT_PUBLIC_API_URL="http://localhost:3000/api"
+```
 
+### Scripts Disponíveis
 
-## Funcionalidades Pendentes
+```bash
+pnpm dev          # Inicia servidor de desenvolvimento
+pnpm build        # Cria build de produção
+pnpm start        # Inicia servidor de produção
+pnpm test         # Executa testes
+pnpm lint         # Executa linting
+pnpm format       # Formata código
+```
 
-Embora a aplicação esteja funcional, há várias melhorias que podem ser feitas para melhorar a experiência e aumentar a escalabilidade do projeto. Algumas melhorias potenciais incluem:
+## 📱 PWA e Responsividade
 
-### 1. **Autenticação:**
-Atualmente, a autenticação ainda não foi implementada. Uma solução simples utilizando o **next-auth** poderia ser implementada para permitir login via **Google** ou **GitHub**.
+O projeto é totalmente responsivo e funciona como PWA (Progressive Web App), permitindo:
 
-### 2. **Criação de Tarefas:**
-Ainda falta implementar a funcionalidade de **criação de tarefas** e associá-las a um **projeto**. Esta funcionalidade pode ser aprimorada para permitir que o usuário defina informações como prazo, responsável e descrição.
+- Instalação no dispositivo
+- Funcionamento offline
+- Notificações push
+- Atualização automática
 
-### 3. **Associação de Tarefas a Projetos:**
-A integração entre as **tarefas** e os **projetos** ainda precisa ser completada. A possibilidade de associar tarefas específicas a projetos está em falta e deve ser incluída em uma versão futura.
+## 🔒 Segurança
 
-### 4. **Responsável por Tarefa:**
-Ainda falta integrar o nome do **responsável** em cada **tarefa**.
+- Autenticação JWT
+- Proteção CSRF
+- Rate Limiting
+- Sanitização de inputs
+- Validação de dados com Zod
+- Políticas de CORS configuráveis
 
-### 5. **Backend Aprimorado:**
-Embora a API tenha sido criada de forma simples, existem muitos cenários que poderiam ser tratados no backend, como validações adicionais, tratamento de erros mais detalhado e escalabilidade do banco de dados.
+## 🧪 Testes
 
-## Desafios e Melhorias
+```bash
+# Executa todos os testes
+pnpm test
 
-Este projeto foi desenvolvido com **Next.js**, **TailwindCSS** e **Prisma ORM**, e tem como objetivo proporcionar uma experiência de desenvolvimento eficiente e limpa. A aplicação já está funcional, mas ainda existem várias áreas de aprimoramento, como:
+# Executa testes com coverage
+pnpm test:coverage
 
-- **Adição de autenticação robusta** utilizando autenticação via **Google** ou **GitHub** ou outro Provider.
-- **Implementação de criação e gerenciamento de tarefas**.
-- **Integração de funcionalidades mais avançadas no backend**.
-- **Implementação de testes unitários e End2End**
+# Executa testes em modo watch
+pnpm test:watch
+```
 
-A arquitetura foi construída de forma a permitir fácil escalabilidade, então melhorias podem ser feitas sem comprometer a estrutura já existente.
+## 📈 Monitoramento
 
-## Conclusão
+- Integração com Sentry para monitoramento de erros
+- Analytics com Vercel
+- Logs estruturados
+- Métricas de performance
 
-Este projeto foi desenvolvido como um **dashboard** com funcionalidades de gerenciamento de **projetos**, **tarefas**, utilizando as melhores práticas de **desenvolvimento frontend**, com ênfase em **responsividade** e **acessibilidade**. A arquitetura **Onion** (poderá ser evoluída a estrutura) foi utilizada para manter o código modular, desacoplado e escalável.
+## 🤝 Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📞 Suporte
+
+## 🎯 Roadmap
+
+- [ ] Implementação de microsserviços
+- [ ] Integração com sistemas da IASD
+- [ ] App mobile com React Native
+- [ ] Sistema de backup automatizado
+- [ ] Módulo de relatórios avançados
 
 ---
+
+Desenvolvido com ❤️ pela equipe de Comunicação e Imagem da IASD KM12B
+```

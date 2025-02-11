@@ -1,0 +1,310 @@
+{
+    "header": {
+      "welcome": "Bem-vindo!",
+      "avatarAlt": "Avatar da Igreja",
+      "toggleTheme": "Alternar tema",
+      "languageSwitcher": "Selecionar idioma",
+      "toggleMenu": "Alternar menu"
+    },
+    "navigation": {
+      "home": "Início",
+      "about": "Sobre Nós",
+      "contact": "Contato",
+      "departments": "Departamentos",
+      "clubs": "Clubes",
+      "events": "Eventos",
+      "sermons": "Sermões",
+      "contributions": "Contribuições"
+    },
+    "home": {
+      "name": "IASD KM 12B",
+      "title": "Igreja Adventista do Sétimo Dia",
+      "description": "Uma comunidade cristã dedicada a servir, amar e compartilhar a mensagem de esperança. Venha nos conhecer e faça parte desta família espiritual.",
+      "joinUs": "Venha nos Visitar",
+      "contactUs": "Entre em Contato",
+      "churchImageAlt": "Igreja IASD KM 12B Viana"
+    },
+    "worship": {
+      "serviceTime": "Horário dos Cultos",
+      "sabbath": "Sábado às 09:30 e 19:00"
+    },
+    "location": {
+      "title": "Nosso Endereço",
+      "address": "KM 12B, Viana, Angola"
+    },
+    "departments": {
+      "sabbathSchool": "Escola Sabatina",
+      "music": "Música",
+      "sound": "Som",
+      "imageCommunication": "Comunicação e Imagem",
+      "homeFamily": "Lar e Família",
+      "asa": "ASA (Ação Social Adventista)",
+      "religiousLiberty": "Liberdade Religiosa",
+      "interested": "Interessados",
+      "health": "Saúde",
+      "education": "Educação",
+      "prophecyPublications": "Espírito de Profecia e Publicação",
+      "stewardship": "Mordomia",
+      "missions": "Missão Atual"
+    },
+    "ministerial": {
+      "title": "Ministérios",
+      "mensMinistry": "Ministério do Homem",
+      "womensMinistry": "Ministério da Mulher",
+      "childrensMinistry": "Ministério da Criança",
+      "personalMinistry": "Ministério Pessoal"
+    },
+    "ministries": {
+      "title": "Nossos Ministérios",
+      "sabbathSchool": "Escola Sabatina",
+      "community": "Ação Social",
+      "worship": "Culto",
+      "events": "Eventos",
+      "selectCategory": "Selecione",
+      "subtitle": "Descubra as diversas áreas de serviço e impacto da nossa igreja. Cada ministério é uma oportunidade de crescimento espiritual e de servir à comunidade.",
+      "categories": {
+        "all": "Todos",
+        "community": "Ação Social",
+        "youth": "Jovens",
+        "education": "Educação",
+        "worship": "Culto"
+      },
+      "details": {
+        "leader": "Líder do Ministério",
+        "meetingTime": "Horário de Encontro",
+        "activities": "Atividades",
+        "contact": "Contactar",
+        "involve": "Quero Participar"
+      },
+      "ministryDetails": {
+        "sabbathSchool": {
+          "title": "Escola Sabatina",
+          "description": "Um espaço de aprendizado bíblico, crescimento espiritual e comunhão fraterna.",
+          "leader": "Pr. João Santos",
+          "meetingTime": "Sábados, 09:30",
+          "activities": {
+            "1": "Estudo da Bíblia",
+            "2": "Discussões em Grupo",
+            "3": "Integração Comunitária"
+          }
+        },
+        "youth": {
+          "title": "Ministério Jovem",
+          "description": "Dedicado a inspirar e capacitar jovens em sua jornada espiritual e social.",
+          "leader": "Ana Costa",
+          "meetingTime": "Sextas, 19:00",
+          "activities": {
+            "1": "Encontros Semanais",
+            "2": "Ações Sociais",
+            "3": "Acampamentos"
+          }
+        },
+        "communityAction": {
+          "title": "Ação Social",
+          "description": "Promovendo amor, esperança e transformação através de ações práticas na comunidade.",
+          "leader": "Carlos Oliveira",
+          "meetingTime": "Quartas, 20:00",
+          "activities": {
+            "1": "Distribuição de Alimentos",
+            "2": "Apoio Educacional",
+            "3": "Assistência Comunitária"
+          }
+        }
+      },
+      "viewAll": "Nenhum ministério encontrado nesta categoria."
+    },
+    "clubs": {
+      "adventurers": "Aventureiros",
+      "pathfinders": "Desbravadores",
+      "embaiss": "Embaixadores",
+      "universities": "Universitários",
+      "youths": "Jovens Adultos"
+    },
+    "events": {
+      "worship": "Cultos",
+      "specialPrograms": "Programações Especiais",
+      "communityEvents": "Eventos Comunitários",
+      "smallGroups": "Pequenos Grupos"
+    },
+    "contributions": {
+      "howToContribute": "Como Contribuir",
+      "bankDetails": "Dados Bancários",
+      "financialReporting": "Prestação de Contas"
+    },
+      "churchHistory": {
+        "title": "Nossa História",
+        "current": "Atual",
+        "sections": {
+          "activities": "Atividades",
+          "achievements": "Realizações"
+        },
+        "history": {
+          "establishment": {
+            "title": "Igreja Estabelecida"
+          },
+          "foundation": {
+            "title": "Fundação da Igreja"
+          }
+        }
+      },
+        "footer": {
+          "contact": {
+            "title": "Contato",
+            "phone": "+244 923 456 789",
+            "email": "iasdkm12b@gmail.com",
+            "address": "KM 12B, Viana, Angola"
+          },
+          "quickLinks": {
+            "title": "Links Rápidos",
+            "ministries": "Ministérios",
+            "events": "Eventos",
+            "sermons": "Sermões",
+            "contributions": "Contribuições"
+          },
+          "schedule": {
+            "title": "Horário dos Cultos",
+            "sabbathSchool": "Escola Sabatina : 08:00",
+            "worship": "Culto de Adoração : 10:50 ",
+            "evening": "Programa da Tarde : 15:00",
+            "sundaysMeetings": "Estudos de Profecias (Domingo) 18:00",
+            "tuesdaysMeetings": "Estudos de Profecias (Terça-Feira) 18:00",
+            "wednesdaysMeetings": "Reunião de Oração (Quarta-Feira) 18:00",
+            "fridaysMeetings": "Culto de Pôr do Sol Recepção do Sábado (Sexta-Feira) 17:30"
+          },
+          "social": {
+            "facebook": "https://www.facebook.com/profile.php?id=100080779239060"
+          },
+          "rights": "Todos os direitos reservados."
+        },  
+        "pathfinders": {
+          "clubName": "Clube de Desbravadores",
+          "motto": "O amor de Cristo nos constrange",
+          "site": "Site Oficial",
+          "link": "https://heroisdafe.netlify.app/",
+          "tabs": {
+            "about": "Sobre",
+            "activities": "Atividades",
+            "specialties": "Especialidades",
+            "gallery": "Galeria",
+            "join": "Participe"
+          },
+          "stats": {
+            "members": "Membros",
+            "specialties": "Especialidades",
+            "campings": "Acampamentos",
+            "classes": "Classes"
+          },
+          "about": {
+            "title": "Sobre Nós",
+            "description": "O Clube de Desbravadores KM12B é dedicado ao desenvolvimento de crianças e adolescentes através de atividades que promovem o crescimento físico, mental e espiritual. Seguimos o programa mundial de Desbravadores da Igreja Adventista do Sétimo Dia.",
+            "values": "Valores Cristãos e Liderança",
+            "achievements": "Crescimento e Desenvolvimento Pessoal"
+          },
+          "activities": {
+            "title": "Nossas Atividades",
+            "camping": "Acampamento de Aventura",
+            "speciality": "Treinamento de Primeiros Socorros",
+            "outdoor": "Ar Livre",
+            "learning": "Aprendizado",
+            "status": {
+              "upcoming": "Próxima",
+              "completed": "Concluída",
+              "ongoing": "Em Andamento"
+            }
+          },
+          "specialties": {
+            "title": "Especialidades Disponíveis",
+            "firstAid": "Primeiros Socorros",
+            "camping": "Acampamento",
+            "astronomy": "Astronomia",
+            "levels": {
+              "basic": "Básico",
+              "intermediate": "Intermediário",
+              "advanced": "Avançado"
+            }
+          },
+          "gallery": {
+            "title": "Galeria de Fotos",
+            "campingAlbum": "Atividades de Acampamento",
+            "meetingsAlbum": "Reuniões Semanais",
+            "eventsAlbum": "Eventos Especiais"
+          },
+          "join": {
+            "title": "Faça Parte",
+            "description": "Recebemos crianças e adolescentes que desejam fazer parte da nossa família Desbravadores. Junte-se a nós nesta emocionante jornada de descoberta e crescimento!",
+            "requirements": "Requisitos",
+            "age": "Idade: 10-15 anos",
+            "commitment": "Presença regular nas reuniões",
+            "parental": "Autorização dos pais necessária",
+            "contact": "Informações de Contato",
+            "contactInfo": "Entre em contato conosco para saber mais sobre como participar do clube:"
+          },
+          "schedule": {
+            "title": "Horário das Reuniões",
+            "regular": "Reuniões Regulares",
+            "time": "Domingos, 9:00 - 12:00",
+            "location": "Igreja IASD KM12B"
+          }
+        
+        },
+        "adventure": {
+          "clubName": "Clube de Aventureiros",
+          "motto": "Por amor a Jesus, nossas mãos ajudarão",
+          
+          "stats": {
+            "members": "Aventureiros Ativos",
+            "specialties": "Especialidades",
+            "campings": "Acampamentos",
+            "classes": "Classes Concluídas"
+          },
+      
+          "tabs": {
+            "about": "Sobre",
+            "activities": "Atividades",
+            "specialties": "Especialidades",
+            "gallery": "Galeria",
+            "join": "Participe"
+          },
+      
+          "about": {
+            "title": "Sobre Nós",
+            "description": "O Clube de Aventureiros da IASD KM12B é um programa para crianças de 6 a 9 anos que promove o desenvolvimento físico, mental e espiritual através de atividades criativas e divertidas.",
+            "values": "Valores Cristãos e Liderança",
+            "achievements": "Crescimento Pessoal e Conquistas"
+          },
+      
+          "activities": {
+            "title": "Próximas Atividades",
+            "camping": "Acampamento Aventura na Natureza",
+            "speciality": "Treinamento de Especialidades",
+            "outdoor": "Atividade ao Ar Livre",
+            "learning": "Atividade de Aprendizagem"
+          },
+      
+          "status": {
+            "upcoming": "Em Breve"
+          },
+      
+          "specialties": {
+            "title": "Nossas Especialidades",
+            "firstAid": "Primeiros Socorros",
+            "camping": "Acampamento",
+            "astronomy": "Astronomia"
+          },
+      
+          "gallery": {
+            "title": "Galeria de Fotos"
+          },
+      
+          "join": {
+            "title": "Faça Parte",
+            "description": "Recebemos novos aventureiros que queiram participar de atividades divertidas enquanto aprendem sobre Deus e desenvolvem novas habilidades.",
+            "requirements": "Requisitos",
+            "age": "Idade entre 6 e 9 anos",
+            "commitment": "Compromisso com as reuniões semanais",
+            "parental": "Autorização dos pais necessária",
+            "contact": "Informações de Contato",
+            "contactInfo": "Entre em contato conosco para mais informações sobre como participar do Clube de Aventureiros:"
+          }
+      }
+}

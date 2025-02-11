@@ -1,0 +1,180 @@
+{
+  "header": {
+      "welcome": "Welcome!",
+      "avatarAlt": "Church Avatar",
+      "toggleTheme": "Toggle Theme",
+      "languageSwitcher": "Select Language",
+      "toggleMenu": "Toggle Menu"
+  },
+  "navigation": {
+      "home": "Home",
+      "about": "About Us",
+      "contact": "Contact",
+      "departments": "Departments",
+      "clubs": "Clubs",
+      "events": "Events",
+      "sermons": "Sermons",
+      "contributions": "Contributions"
+  },
+  "home": {
+      "name": "SDA Church KM 12B",
+      "title": "Seventh-day Adventist Church",
+      "description": "A Christian community dedicated to serving, loving, and sharing the message of hope. Come visit us and be part of this spiritual family.",
+      "joinUs": "Come Visit Us",
+      "contactUs": "Contact Us",
+      "churchImageAlt": "SDA Church KM 12B Viana"
+  },
+  "worship": {
+      "serviceTime": "Worship Service Time",
+      "sabbath": "Saturday at 09:30 AM and 7:00 PM"
+  },
+  "location": {
+      "title": "Our Address",
+      "address": "KM 12B, Viana, Angola"
+  },
+  "departments": {
+      "sabbathSchool": "Sabbath School",
+      "music": "Music",
+      "sound": "Sound",
+      "imageCommunication": "Communication & Media",
+      "homeFamily": "Home & Family",
+      "asa": "ASA (Adventist Social Action)",
+      "religiousLiberty": "Religious Liberty",
+      "interested": "Interested",
+      "health": "Health",
+      "education": "Education",
+      "prophecyPublications": "Spirit of Prophecy & Publications",
+      "stewardship": "Stewardship",
+      "missions": "Current Mission"
+  },
+  "ministerial": {
+      "title": "Ministries",
+      "mensMinistry": "Men's Ministry",
+      "womensMinistry": "Women's Ministry",
+      "childrensMinistry": "Children's Ministry",
+      "personalMinistry": "Personal Ministries"
+  },
+  "ministries": {
+      "title": "Our Ministries",
+      "sabbathSchool": "Sabbath School",
+      "community": "Social Action",
+      "worship": "Worship",
+      "events": "Events",
+      "selectCategory": "Select Category",
+      "subtitle": "Discover the various service areas and impact of our church. Each ministry is an opportunity for spiritual growth and community service.",
+      "categories": {
+          "all": "All",
+          "community": "Social Action",
+          "youth": "Youth",
+          "education": "Education",
+          "worship": "Worship"
+      },
+      "details": {
+          "leader": "Ministry Leader",
+          "meetingTime": "Meeting Time",
+          "activities": "Activities",
+          "contact": "Contact",
+          "involve": "I Want to Participate"
+      },
+      "ministryDetails": {
+          "sabbathSchool": {
+              "title": "Sabbath School",
+              "description": "A place for Bible study, spiritual growth, and fellowship.",
+              "leader": "Pr. João Santos",
+              "meetingTime": "Saturdays, 09:30 AM",
+              "activities": {
+                  "1": "Bible Study",
+                  "2": "Group Discussions",
+                  "3": "Community Engagement"
+              }
+          },
+          "youth": {
+              "title": "Youth Ministry",
+              "description": "Dedicated to inspiring and empowering young people in their spiritual and social journey.",
+              "leader": "Ana Costa",
+              "meetingTime": "Fridays, 7:00 PM",
+              "activities": {
+                  "1": "Weekly Meetings",
+                  "2": "Social Actions",
+                  "3": "Camps"
+              }
+          },
+          "communityAction": {
+              "title": "Social Action",
+              "description": "Promoting love, hope, and transformation through practical actions in the community.",
+              "leader": "Carlos Oliveira",
+              "meetingTime": "Wednesdays, 8:00 PM",
+              "activities": {
+                  "1": "Food Distribution",
+                  "2": "Educational Support",
+                  "3": "Community Assistance"
+              }
+          }
+      },
+      "viewAll": "No ministry found in this category."
+  },
+  "clubs": {
+      "adventurers": "Adventurers",
+      "pathfinders": "Pathfinders",
+      "embaiss": "Ambassadors",
+      "universities": "University Students",
+      "youths": "Young Adults"
+  },
+  "events": {
+      "worship": "Worship Services",
+      "specialPrograms": "Special Programs",
+      "communityEvents": "Community Events",
+      "smallGroups": "Small Groups"
+  },
+  "contributions": {
+      "howToContribute": "How to Contribute",
+      "bankDetails": "Bank Details",
+      "financialReporting": "Financial Reporting"
+  },
+  "churchHistory": {
+      "title": "Our History",
+      "current": "Current",
+      "sections": {
+          "activities": "Activities",
+          "achievements": "Achievements"
+      },
+      "history": {
+          "establishment": {
+              "title": "Church Established"
+          },
+          "foundation": {
+              "title": "Church Foundation"
+          }
+      }
+  },
+    "footer": {
+      "contact": {
+        "title": "Contact Us",
+        "phone": "+244 923 456 789",
+        "email": "iasdkm12b@gmail.com",
+        "address": "KM 12B, Viana, Angola"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "ministries": "Ministries",
+        "events": "Events",
+        "sermons": "Sermons",
+        "contributions": "Contributions"
+      },
+      "schedule": {
+        "title": "Worship Schedule",
+        "sabbathSchool": "Sabbath School : 08 AM",
+        "worship": "Worship Service: 10:50 AM",
+        "evening": "Evening Service: 3:00 PM",
+        "prayerMeeting": "Prayer Meeting: 6:00 PM",
+        "sundaysMeetings": "Prophecy Studies (Sunday): 6:00 PM",
+        "tuesdaysMeetings": "Prophecy Studies (Tuesday): 6:00 PM",
+        "wednesdaysMeetings": "Prayer Meeting (Wednesday): 6:00 PM",
+        "fridaysMeetings": "Sundown Worship - Sabbath Reception (Friday): 5:30 PM"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100080779239060"
+      },
+      "rights": "All rights reserved."
+    }
+}
