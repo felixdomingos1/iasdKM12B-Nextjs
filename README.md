@@ -88,7 +88,11 @@ pnpm prisma generate
 
 5. Inicie o servidor de desenvolvimento:
 ```bash
-pnpm dev
+npm run dev
+
+or
+
+yarn dev
 ```
 
 ## 🔧 Configuração
@@ -105,12 +109,12 @@ NEXT_PUBLIC_API_URL="http://localhost:3000/api"
 ### Scripts Disponíveis
 
 ```bash
-pnpm dev          # Inicia servidor de desenvolvimento
-pnpm build        # Cria build de produção
-pnpm start        # Inicia servidor de produção
-pnpm test         # Executa testes
-pnpm lint         # Executa linting
-pnpm format       # Formata código
+yarn dev          # Inicia servidor de desenvolvimento
+yarn build        # Cria build de produção
+yarn start        # Inicia servidor de produção
+yarn test         # Executa testes
+yarn lint         # Executa linting
+yarn format       # Formata código
 ```
 
 ## 📱 PWA e Responsividade
